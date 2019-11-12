@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PixelBoogie</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Lemon|Secular+One|Bowlby+One|Faster+One" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+<style type="text/css">
+html {
+
+}
+
+body{
+    background-color: #0e0e10;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    white-space: nowrap;
+    visibility: hidden;
+
+}
+
+#myTitle {
+/*
+    font-family: 'Black Han Sans', sans-serif;
+        font-family: 'Rubik Mono One', sans-serif;
+
+        font-family: 'Bowlby One', cursive;
+*/
+
+    font-family: 'Faster One', cursive;
+    position: relative;
+    left: 35px;
+    font-size: 45px;
+    color: #787878;
+    margin: 40px;
+    width: 100%;
+    height: 50px;
+}
+
+
+.myRow {
+    background-color: #232830;
+    width: 100%;
+    height: 118px;
+    margin: 4px;
+       
+   /*opacity: 0;*/
+ 
+}
+
+.myRow:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+#myThumb{
+    position: relative;
+    top:11px;
+    left:14px;
+}
+
+#myName{
+    /*position: absolute;*/
+    position: relative;
+    top:-90px;
+    left: 200px;
+    font-family: 'Lemon', cursive;
+    color: white;
+}
+#myDesc{
+    /*position: absolute;*/
+    position: relative;
+    top:-87px;
+    left: 200px;
+    color: #686a6d;
+    height: 35px;
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+#mybtn_watch{
+    position: relative;
+    top: -83px;
+    left: 200px;
+    width:95px;
+    height:31px;
+    z-index: 200;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+
+</script>
+</head>
+<body id="myBody">
+<div id="myTitle">
+   PixelBoogie - HTML5 - Animated Digital Ads
+</div>
+<div id="div1" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_LateNight.png"></a>
+    <div id="myName">Late Night (Amazon Original)</div>
+    <div id="myDesc">This is a large rich media unit (with Wallpaper) for the Fandango Home Page. This unit features DoubleClick tracking and dynamic messaging for the Call To Action and videos. </div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+
+<div id="div2" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_Anna.png"></a>
+    <div id="myName">ANNA</div>
+    <div id="myDesc">This is a large rich media unit created to prommote the feature film, ANNA. It features DoubleClick tracking and dynamic date messaging for the Call To Action and videos.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+
+<div id="div3" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_AmericanWoman.png"></a>
+    <div id="myName">Amercian Woman</div>
+    <div id="myDesc">This is a large rich media unit created to prommote the feature film, American Woman. It features DoubleClick tracking and dynamic date messaging for the Call To Action and videos.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+
+<div id="div4" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_ghost.png"></a>
+    <div id="myName">Tom Clancy - Ghost Recon</div>
+    <div id="myDesc">A cool animation concept executed in Adobe Edge (now Adobe Animate).</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div5" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_peanuts.png"></a>
+    <div id="myName">The Peanuts Movie</div>
+    <div id="myDesc">DoubleClick Rich Media banner using GSAP animation library.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div6" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_iceAge.png"></a>
+    <div id="myName">Ice Age Peanuts Expandable with Video</div>
+    <div id="myDesc">DoubleClick Expandable Banner with Video.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div7" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_celtraAdvanced.png"></a>
+    <div id="myName">Celtra - Advanced Features</div>
+    <div id="myDesc">This Celtra unit includes advanced features such as, Slideshow, Puzzle and 360 video.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div8" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_allegra.png"></a>
+    <div id="myName">Allegra 160x600 Expandable</div>
+    <div id="myDesc">Some basic animation using GSAP TweenMax.<br>The text, corner and rider all animate a bit.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div9" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_coffee.png"></a>
+    <div id="myName">Coffe-mate Steam</div>
+    <div id="myDesc">A couple scene transitions and some steam animated.<br></div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div10" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_idol.png"></a>
+    <div id="myName">American Idol Billboard with Video</div>
+    <div id="myDesc">Just an animated unit...</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+
+<div id="div11" class="myRow">
+   <a><img id="myThumb" src="imgs/thumb_celtraBanner.png"></a>
+    <div id="myName">Celtra - Animated Banner</div>
+    <div id="myDesc">This animated banner was created using the Celtra Ad Builder. It demonstrates general competence with the tools.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+<div id="div12" class="myRow">
+    <a><img id="myThumb" src="imgs/thumb_tuf.png"></a>
+    <div id="myName">The Ultimated Fighter Animated Banner</div>
+    <div id="myDesc">DoubleClick animated banner using GSAP animation library.</div>
+    <a><img id="mybtn_watch" src="imgs/btn_watch.png"></a>
+</div>
+</body>
+<script src="H5Samples.js"></script>
+<script type="text/javascript">window.onload = animateIt();</script>
+</html>
