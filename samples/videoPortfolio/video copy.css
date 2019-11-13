@@ -1,0 +1,219 @@
+
+body{
+    position: relative;
+    background-color: #231f1f;
+    background-image: url("shinyMetalTexture.jpg");
+     background-repeat: no-repeat;
+    width: 100%;
+  background-size: cover;
+   /* 
+   visibility: hidden; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    white-space: nowrap;
+   */
+
+}
+
+
+
+
+
+#myTitle {
+        position: relative;
+    color: #999;
+    top: 10px;
+    width: 500px;
+   margin: auto;
+   padding-bottom: 5px;
+
+
+   text-align: center; 
+    /*
+     
+    width: 100%;
+    left: 40px;
+    */
+
+
+ 
+}
+
+a {
+  color: #999;
+  text-decoration: none; /* no underline */
+}
+
+h1{
+
+  font-family: 'Anton';
+  font-size: 30px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+}
+
+#smallTitle{
+      position: relative;
+   
+      color: #999;
+      font-size: 14px;
+    padding: 10px;
+
+/*
+     margin: 20px ;
+   top: 70px;
+*/
+
+
+
+  }
+.myRow {
+    position: absolute;
+    
+    /*
+
+    background-image: url("imgs/thumb_tuf.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px dotted #484848;
+    border-radius: 12px;
+
+
+    background-opacity: 0.1;    */
+    width: 130px;
+    height: 60px;
+    border: 2px solid #484848;
+      /*
+
+
+      left: 70px;
+
+      opacity: 0;
+}
+
+
+      */
+      -webkit-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+      -moz-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+      box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+
+
+}
+
+
+.myRow:hover{
+    /*
+    background-color: #030303;
+    cursor: crosshair;
+    border: 4px solid #484848;
+
+    */
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.5);">
+}
+
+#vidDiv{
+      position: relative;
+
+
+  border: 2px solid #484848;
+  width: 640px;
+  height: 360px;
+  margin: auto;
+  
+     /*
+      top: 150px;
+  left: 600px;
+      position: absolute;
+     background-color: black;
+     background-image: url("1x1.gif");
+   visibility: hidden;
+*/
+	background-color:rgba(0, 0, 0, 0.5);">
+  -webkit-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+  -moz-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+  box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);	
+  padding: 10px;
+  border-radius: 12px;
+
+}
+
+video{
+    position: relative; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    overflow: hidden;
+    background-color: black;
+
+    /*
+
+     position: absolute; 
+    z-index: -100;
+    background-size: cover;
+    */
+}
+
+
+
+#myName{
+    /*position: absolute;*/
+    position: relative;
+    top: 0;
+    text-align: center;
+  
+    color: white;
+    border-radius: 50%;
+    /*
+    width: 150px;
+    height: 150px
+    */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+
+p{
+  text-align: center;
+    font-family: 'Arial';
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+
+    text-align: left;
+    /*
+  top: 57px;
+    position: relative;
+    display: inline;
+
+    */
+
+
+}
+
+#desc{    
+	position: relative;
+	top:370px;
+	left: 10px;
+  color: #999;
+  font-size: 14px;
+  font-family: "Arial";
+
+}
+
+#descVideo{
+     height: 240px;
+     width: 400px;
+}
+
+
+
+#clipInfo{
+    position: relative;
+    margin: auto;
+    width: 500px;
+}

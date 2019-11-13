@@ -1,0 +1,277 @@
+
+body{
+      position: relative;
+          width: 100%;
+
+    background-color: #231f1f;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    white-space: nowrap;
+
+    /*
+    visibility: hidden;
+    */
+
+}
+
+#myTitle {
+    font-family: 'Anton';
+    position: relative;
+    left: 70px;
+    color: #999;
+    width: 800px;
+
+    top: 10px;
+ 
+
+   /*  text-align: center;
+     margin: auto;
+   */
+}
+
+
+
+h1{
+
+  font-family: 'Anton';
+    font-size: 60px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+}
+
+
+#thumbholder{
+        position: relative;
+      width: 800px;
+      text-align: center;
+      margin:auto;
+  }
+.myRow {
+    position: absolute;
+    
+    /*
+
+    background-image: url("imgs/thumb_tuf.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px dotted #484848;
+    border-radius: 12px;
+
+
+    background-opacity: 0.1;    */
+    width: 130px;
+    height: 60px;
+    border: 2px solid #484848;
+      /*
+
+
+      left: 70px;
+
+      opacity: 0;
+}
+
+
+      */
+      -webkit-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+      -moz-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+      box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+
+
+}
+
+
+.myRow:hover{
+    /*
+    background-color: #030303;
+    cursor: crosshair;
+    border: 4px solid #484848;
+
+    */
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.5);">
+}
+
+#divA1{
+    display:inline;
+    margin: 0px;
+    padding: 0px;
+    top: 150px;
+         left: 70px;
+          /*
+
+    background-image: url("thumbs/AdBuilderDemo.jpg");
+      */
+
+}
+#divA2{
+  top: 150px;
+ left: 235px; 
+
+  /* 
+  background-image: url("thumbs/BattlefieldHighlights.jpg");  */
+}
+#divA3{
+  top: 150px;
+  left: 400px; 
+
+  /*
+
+  background-image: url("thumbs/57BMW.jpg");  */
+}
+#divB1{
+    top: 260px;
+    left: 70px; /*
+    background-image: url("thumbs/TwistOfTheThrottle.jpg");  */
+}
+#divB2{
+  top: 260px;
+  left: 235px; /*
+  background-image: url("thumbs/Hotwheels.jpg");  */
+}
+#divB3{
+  top: 260px;
+  left: 400px; /*
+  background-image: url("thumbs/57CHevyBelAir.jpg");  */
+}
+#divC1{
+    top: 370px;
+    left: 70px; /*
+    background-image: url("thumbs/RallyCrossChampionship.jpg");  */
+}
+#divC2{
+  top: 370px;
+  left: 235px; /*
+  background-image: url("VidProjsVids/CoupleMissions.jpg");  */
+}
+#divC3{
+  top: 370px;
+  left: 400px;
+  /*
+  background-image: url("VidProjsVids/FLyingIsHard.jpg");
+  */
+}
+#divD1{
+  top: 480px;
+  left: 70px;
+
+
+
+
+
+}
+#divD2{
+  top: 480px;
+  left: 235px;
+
+
+  /*
+
+  */
+}
+#divD3{
+  top: 480px;
+  left: 400px;
+
+  /*
+
+  */
+}
+#divE1{
+  top: 590px;
+  left: 70px;
+}
+
+
+#divE2{
+  top: 590px;
+  left: 235px;
+}
+#divE3{
+  top: 590px;
+  left: 400px;
+  
+}
+
+#vidDiv{
+	position: absolute;
+	top: 150px;
+  left: 600px;
+  border: 2px solid #484848;
+  width: 640px;
+  height: 360px;
+  
+     /*
+     background-color: black;
+     background-image: url("1x1.gif");
+   visibility: hidden;
+*/
+	background-color:rgba(0, 0, 0, 0.5);">
+  -webkit-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+  -moz-box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);
+  box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.53);	
+  padding: 10px;
+  border-radius: 12px;
+
+}
+
+video{
+ position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+
+    overflow: hidden;
+
+
+    /*
+    z-index: -100;
+    background-size: cover;
+    */
+}
+
+
+
+#myName{
+    /*position: absolute;*/
+    position: relative;
+    top: 0;
+    text-align: center;
+    font-family: 'Arial';
+    color: white;
+    border-radius: 50%;
+    /*
+    width: 150px;
+    height: 150px
+    */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+
+p{
+    /*position: relative;*/
+    top: 57px;
+    color: #999;
+    font-size: 12px;
+    margin: 0px;
+    display: inline;
+}
+
+#desc{    
+	position: relative;
+	top:370px;
+	left: 10px;
+  color: #999;
+  font-size: 14px;
+  font-family: "Arial";
+
+}
+
+#descVideo{
+     height: 240px;
+     width: 400px;
+}
+
